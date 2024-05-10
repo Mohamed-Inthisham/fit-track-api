@@ -80,7 +80,7 @@ public class MealPlanServiceImpl implements MealPlanService {
         mealPlan.setIngredients(mealPlanDTO.getIngredients());
         mealPlan.setMealtype(mealPlanDTO.getMealtype());
         mealPlan.setMealtime(mealPlanDTO.getMealtime());
-        mealPlan.setPhotoUrl(mealPlan.getPhotoUrl());
+        mealPlan.setPhotoUrl(mealPlanDTO.getPhotoUrl());
         mealPlan.setCookingInstructions(mealPlanDTO.getCookingInstructions());
         mealPlan.setPortionSize(mealPlanDTO.getPortionSize());
 
